@@ -4,7 +4,9 @@
  */
 package aplicacao;
 
+import java.util.Date;
 import model.entidades.Departamento;
+import model.entidades.Vendedor;
 
 /**
  *
@@ -13,6 +15,8 @@ import model.entidades.Departamento;
 public class Programa {
     public static void main(String[] args) {
         Departamento obj = new Departamento(1,"Books");
-        System.out.println(obj);
+        Vendedor vend = new Vendedor(1, "Pablo", "pa@gmail.com", new Date(), 2000.0, obj);
+        
+        System.out.println(vend);
     }
 }
