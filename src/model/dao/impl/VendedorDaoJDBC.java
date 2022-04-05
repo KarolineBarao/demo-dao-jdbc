@@ -71,8 +71,6 @@ public class VendedorDaoJDBC implements VendedorDAO{
             DB.closeStatement(st);
         }
         
-
-
     }
 
     @Override

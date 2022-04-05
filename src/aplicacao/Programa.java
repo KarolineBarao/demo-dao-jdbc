@@ -18,7 +18,7 @@ import model.entidades.Vendedor;
 public class Programa {
     public static void main(String[] args) {
           
-        VendedorDAO vendDAO = DaoFactory.createVendedorDAO();
+       /* VendedorDAO vendDAO = DaoFactory.createVendedorDAO();
         
         System.out.println("=== Teste 1: Vendendor findById ===");        
         Vendedor vend = vendDAO.findById(3);        
@@ -59,7 +59,7 @@ public class Programa {
         System.out.println("\n=== Teste 6: Vendendor Delete ===");
         
         vendDAO.deleteById(12);
-        System.out.println("Delete completo");
+        System.out.println("Delete completo");*/
         
     }
     
